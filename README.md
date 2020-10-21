@@ -1,14 +1,12 @@
 # FontRenamer
 
-Useful plugin for bulk-renaming fonts across files. Useful for when multiple files have an old version of a font that you no longer have a license to.
+Figma plugin for bulk-renaming fonts across files. Useful for when multiple files have an old version of a font that you no longer have a license to.
 
 ## Usage
-1. Open `code.ts` and update the `mappings` and `fontstoLoad` variables with the fonts you want to rename. You need to load all the styles for the fonts you intend to rename.
-2. Install typescript if you don't have it already: `npm install -g typescript`
+1. Open `code.ts` and update the `mappings` and `fontsToLoad` variables with the fonts you want to rename. You need to load all the styles for the fonts you intend to rename.
+2. Install TypeScript if you don't have it already: `npm install -g typescript`
 3. In the plugin directory, load the latest type definitions: `npm install --save-dev @figma/plugin-typings`
-4. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "tsc: watch - tsconfig.json". You will have to do this again every time
-    you reopen Visual Studio Code.
+4. Compile TS to JS: in VsCode, `Run Build Task...` and select `tsc: wach -tsconfig.json`. You'll have to do this every time you re-open VSCode.
 
 That's it!
 
